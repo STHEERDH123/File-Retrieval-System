@@ -26,7 +26,7 @@ The IndexStore component stores and manages the index data structure. It support
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
 3. Build the project using Maven: `mvn clean install`.
-4. Run the application: `java -jar target/file-retrieval-system.jar`.
+4. Run the application: `mvn exec:java`.
 
 ### Commands
 - `index <dataset path>`: Index files from the specified dataset path.
